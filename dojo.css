@@ -1,0 +1,54 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .col{
+    background-color: cadetblue;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+  .row{
+    display: flex;
+}
+.nav{
+    background-color:dimgray; 
+    border-radius: solid 2px;
+    margin: 1px;
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 1px;
+    text-align: center;
+    background-color:cadetblue;
+    box-shadow: 2px 2px 2px black;  
+    padding: 14px 15px;
+    display: flex;   
+    border: 5px;
+    margin: 5px 50px 0px 180px; 
+}
+.noti{   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    color:white;
+    border: 2px solid cadetblue;
+    text-align: center;
+    font-weight: 400; 
+    padding: 0px;
+    margin: 0px 0px 0px 4px;
+    }
